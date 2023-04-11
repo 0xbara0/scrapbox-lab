@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハッシュタグ追加</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Scrapboxページにハッシュタグ追加</h1>
+  <label for="input-file">Jsonファイルをアップロード：</label>
+  <input type="file" id="input-file" accept=".json">
+  <br><br>
+  <label for="hashtag-input">追加したいハッシュタグ:</label>
+  <input type="text" id="hashtag-input">
+  <br><br>
+  <button id="process-btn" disabled>処理開始</button>
+  <br><br>
+  <a id="download-link" download="modified_scrapbox.json" style="display: none;">処理済JSONファイルをダウンロード</a>
+</body>
+</html>
